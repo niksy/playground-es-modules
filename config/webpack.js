@@ -1,9 +1,8 @@
 'use strict';
 
-const path = require('path');
 const config = require('webpack-config-niksy');
 const nodeResolve = require('rollup-plugin-node-resolve');
-const includePaths = require('rollup-plugin-includepaths');
+const includePaths = require('rollup-plugin-includepaths').default;
 const babel = require('rollup-plugin-babel');
 
 module.exports = Object.assign({}, config({
