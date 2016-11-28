@@ -24,7 +24,6 @@ module.exports = Object.assign({}, config({
 	}
 }), {
 	rollup: {
-		external: false,
 		plugins: [
 			babel({
 				babelrc: false,
